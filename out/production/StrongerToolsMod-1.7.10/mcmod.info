@@ -1,0 +1,21 @@
+[
+{
+  "modid": "StrongerToolsMod",
+  "name": "Stronger Tools Mod",
+  "description": "A Mod which adds items and blocks you can use to make tools that are much better than the diamond tools",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Zombi3MC"
+  ],
+  "credits": "Pahimar for his awesome tutorials!",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
