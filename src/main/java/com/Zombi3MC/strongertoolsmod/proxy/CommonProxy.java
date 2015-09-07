@@ -3,6 +3,6 @@ package com.Zombi3MC.strongertoolsmod.proxy;
 /**
  * Created by Zombi3MC.
  */
-public class CommonProxy implements IProxy {
+public abstract class CommonProxy implements IProxy {
 
 }

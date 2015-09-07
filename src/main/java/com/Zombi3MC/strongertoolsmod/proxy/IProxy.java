@@ -5,4 +5,5 @@ package com.Zombi3MC.strongertoolsmod.proxy;
  */
 public interface IProxy {
 
+
 }
