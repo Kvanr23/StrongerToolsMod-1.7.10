@@ -1,6 +1,8 @@
 package com.Zombi3MC.strongertoolsmod;
 
 import com.Zombi3MC.strongertoolsmod.handler.ConfigurationHandler;
+import com.Zombi3MC.strongertoolsmod.init.ModBlocks;
+import com.Zombi3MC.strongertoolsmod.init.ModItems;
 import com.Zombi3MC.strongertoolsmod.proxy.IProxy;
 import com.Zombi3MC.strongertoolsmod.reference.Reference;
 import com.Zombi3MC.strongertoolsmod.utility.LogHelper;
@@ -28,6 +30,8 @@ public class StrongerToolsMod {
     public void PreInit(FMLPreInitializationEvent e) {
         ConfigurationHandler.init(e.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        ModItems.init();
+        ModBlocks.init();
 
         LogHelper.info("-=############ Preinit complete!############=-");
     }

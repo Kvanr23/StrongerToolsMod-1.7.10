@@ -1,0 +1,14 @@
+#Items
+item.strongertoolsmod:zombieIngot.name=Zombie Ingot
+item.strongertoolsmod:obsidianStick.name=Obsidian Stick
+item.strongertoolsmod:comObsidianStick.name=Compressed Obsidian Stick
+
+#Tools
+
+
+#Blocks
+tile.strongertoolsmod:comObsidian.name=Compressed Obsidian
+tile.strongertoolsmod:zombieBlock.name=Zombie Block
+tile.strongertoolsmod:zombieOreEnd.name=Zombie Ore
+tile.strongertoolsmod:zombieOreNether.name=Zombie Ore
+tile.strongertoolsmod:zombieOreOverworld.name=Zombie Ore
