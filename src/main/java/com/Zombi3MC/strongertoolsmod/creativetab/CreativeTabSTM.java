@@ -26,6 +26,7 @@ public class CreativeTabSTM {
         public Item getTabIconItem() {
             return Item.getItemFromBlock(ModBlocks.zombieBlock);
         }
+        @Override
         public String getTranslatedTabLabel() {
             return "Stronger Tools Mod: Blocks";
         }
